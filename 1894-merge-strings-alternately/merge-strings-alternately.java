@@ -22,13 +22,13 @@ class Solution {
             }
         }
 
-        StringBuilder final_word = new StringBuilder();
-        for(int i=0; i<words; i++) {
-            final_word.append(finalw[i]);
-        }
+        // StringBuilder final_word = new StringBuilder();
+        // for(int i=0; i<words; i++) {
+        //     final_word.append(finalw[i]);
+        // }
 
-        String result = final_word.toString();
+        // String result = final_word.toString();
 
-        return result;
+        return new String(finalw);
     }
 }
