@@ -5,7 +5,6 @@ class Solution {
         HashSet<Integer> set = new HashSet<>();
         List<Integer> list = new ArrayList<>();
 
-        Arrays.sort(nums);
         for(int i=0; i < nums.length; i++) set.add(nums[i]);
 
         for(int i=1; i<=nums.length; i++) {
